@@ -101,7 +101,7 @@ public class VoIpUSSD extends CordovaPlugin {
 						result_2.setKeepCallback(true);
 						callbackContext.sendPluginResult(result_2); 
                         // second option list - select option 1
-                        ussdApi.send("1", new USSDController.CallbackMessage() {
+                ussdApi.send("1", new USSDController.CallbackMessage() {
                             @Override
                             public void responseMessage(String message) {
                                 result += "\n-\n" + message;
