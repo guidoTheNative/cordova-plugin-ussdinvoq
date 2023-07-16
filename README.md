@@ -45,7 +45,4 @@ window.plugins.voIpUSSD.show('*105#', function (data) {
 }, function (err) {
    console.log('USSD Erreur: ' + err);
 });
-```
-## Authors
 
-* **Ramy Mokako** - *Initial work* - [Romell Domínguez](https://github.com/romellfudi/VoIpUSSD/#by-romell-dominguez)
