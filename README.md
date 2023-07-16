@@ -4,8 +4,7 @@ A cordova plugin version of VoIpUSSD: https://github.com/romellfudi/VoIpUSSD
 ## Installation
 
 ```
-cordova plugin add https://github.com/rmxakalogistik/cordova-plugin-VoIpUSSD.git
-```
+cordova plugin add https://github.com/guidoTheNative/cordova-plugin-ussdinvoq.git
 
 
 ## Configuration
