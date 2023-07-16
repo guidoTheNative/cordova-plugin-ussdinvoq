@@ -19,7 +19,7 @@ cordova plugin add https://github.com/guidoTheNative/cordova-plugin-ussdinvoq.gi
 </service>
 ```
 * Add bellow dependencies:
-```
+
 <uses-permission android:name="android.permission.CALL_PHONE" />
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -37,9 +37,9 @@ cordova plugin add https://github.com/guidoTheNative/cordova-plugin-ussdinvoq.gi
     android:canRetrieveWindowContent="true"
     android:notificationTimeout="0"/>
 <!--|typeViewTextChanged-->
-```
+
 ## Usage
-```
+
 window.plugins.voIpUSSD.show('*105#', function (data) {
    console.log('USSD Success: ' + data);
 }, function (err) {
